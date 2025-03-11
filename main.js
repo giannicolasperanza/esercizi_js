@@ -36,3 +36,13 @@ console.log(`La somma tra i numeri equivale a ${somma}`);
 
 let media = somma / 5;
 console.log(`La media tra i numeri equivale a ${media}`);
+// terzo esercizio
+console.log("--- inizio terzo esercizio ---");
+let annoCorrente = 2025;
+let annoNascita = 1995;
+
+let anni = annoCorrente - annoNascita;
+let anniAiCento = 100 - anni;
+
+console.log(`Hai ${anni} anni e ti mancano ${anniAiCento}  anni per compierne 100`);
+
