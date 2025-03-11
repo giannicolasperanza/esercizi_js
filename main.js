@@ -16,7 +16,23 @@ console.log(stringa);
 const PIGRECO = 3.14159265359;
 console.log(`Il valore di PIGRECO è ${PIGRECO}`);
 
-PIGRECO = 5;
+// PIGRECO = 5;
 
-console.log(PIGRECO); 
-// chiaramente errore!!
+// // console.log(PIGRECO); 
+// // // chiaramente errore!!
+
+
+// secondo esercizio
+console.log("--- inizio secondo esercizio ---");
+
+let primo = 5;
+let secondo = 15;
+let terzo = 20;
+let quarto = 3;
+let quinto= 7;
+
+let somma = primo + secondo + terzo + quarto + quinto;
+console.log(`La somma tra i numeri equivale a ${somma}`);
+
+let media = somma / 5;
+console.log(`La media tra i numeri equivale a ${media}`);
